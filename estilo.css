@@ -12,6 +12,7 @@
     border-radius: 4px;
 }
 
+
 .box1 {
     background-color: #63b1bc;
 }
@@ -36,23 +37,41 @@ h1 {
 /* Insira o código abaixo */
 
 .container1 {
-    
+    display: flex;
 }
 
 .container2 {
-    
+    display: flex;
+    justify-content: flex-end;
 }
 
 .container3 {
-   
+    display: flex;
+    justify-content: center;
 }
 
 .container4 {
-    
+    display: flex;
+    justify-content: space-between;
 }
+
 .container5 {
-    
+    display: flex;
+    justify-content: space-around;
 }
-.container-6 {
-    
+
+.container6 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-B {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.container-desafio {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
 }
